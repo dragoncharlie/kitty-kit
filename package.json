@@ -1,7 +1,7 @@
 {
   "name": "kitty-kit",
-  "version": "0.0.2",
-  "description": "Common ui components for react",
+  "version": "0.0.3",
+  "description": "",
   "main": "dist/cjs/index.js",
   "scripts": {
     "test": "jest",
