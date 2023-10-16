@@ -1,16 +1,15 @@
-import React from "react";
-import "./button.css";
+import React from 'react'
 
 export type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
-  title: string;
-};
+	title: string
+}
 
 const Button: React.FC<ButtonProps> = ({ title, ...other }) => {
-  return (
-    <button className="kitty-btn" {...other}>
-      {title}
-    </button>
-  );
-};
+	return (
+		<button className='text-red-500' {...other}>
+			{title}
+		</button>
+	)
+}
 
-export default Button;
+export default Button
