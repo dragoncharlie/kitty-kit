@@ -1,6 +1,6 @@
 {
   "name": "kitty-kit",
-  "version": "0.0.3",
+  "version": "0.0.6",
   "description": "",
   "main": "dist/cjs/index.js",
   "scripts": {
@@ -13,7 +13,10 @@
     "lint": "eslint . --ext .ts,.tsx --ignore-path .gitignore --fix"
   },
   "keywords": [
-    "ui-kit"
+    "ui-kit",
+    "tailwind",
+    "ts",
+    "react"
   ],
   "author": "DragonCharlie",
   "license": "ISC",
